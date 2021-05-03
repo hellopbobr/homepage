@@ -1,0 +1,97 @@
+.section {
+   padding: 20px;
+   box-shadow: 2px 2px 20px #ccc;
+   margin: 30px auto 0;
+}
+
+.section__Header {
+    color: #3C403D;
+    text-shadow: 3px 3px 5px #888;
+    margin: 0;
+}
+
+.section__paragraph {
+    text-align: justify;
+    margin: 20px 0 0;
+}
+
+.section__button {
+    font-size: 19px;
+    background-color: #47855A;
+    border: none;
+    box-shadow: 3px 3px 1px 2px #888;
+    color: #fff;
+    padding: 10px 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.section__photo {
+    visibility: hidden;
+    height: 0;
+}
+
+.section__hiddenPhoto {
+    display: block;
+    margin: 20px auto;
+    visibility: visible;
+    height: auto;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.section__table {
+    border-collapse: collapse;
+}
+
+.section__caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+.section__tableHeader {
+    background-color: #47855A;
+    color: white;
+}
+
+.section__tableCell {
+    border: 1px solid #A3BCB6;
+    padding: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section__tableRow:hover {
+    background: #eee;
+}
+
+.section__unorderedList {
+    margin: 20px 0 0;
+}
+
+.section__subjectList {
+    list-style: square;
+    padding-left: 50px;
+}
+
+.section__mail {
+    background-color: #3C403D;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.section__mail:visited {
+    color: #fff;
+}
+
+.section__mail:focus {
+    outline: 5px solid #478559;
+}
+
+.section__mail:hover {
+    background-color: #478559;
+    outline: none;
+}
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budownictwo na 5!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <h1>BUDOWNICTWO NA 5!</h1>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__unorderedList">
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O MNIE</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#przedmioty-techniczne">PRZEDMIOTY
+                    TECHNICZNE</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#kontakt">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__Header">O mnie</h2>
+            <p class="section__paragraph">Cześć, nazywam się Przemysław Bobrowski i jestem <strong>inżynierem
+                    budownictwa</strong>
+                z 5-letnim doświadczeniem. W 2016 roku skończyłem studia na <em>Politechnice Łódzkiej</em>. Od 2016 roku
+                pracuję
+                aktywnie w zawodzie. W wolnych chwilach gram w <b>tenisa</b>, uczę się <b>angielskiego</b> oraz <b>służę
+                    pomocą</b> młodszym studentom kierunków technicznych.</p>
+            <p class="section__paragraph">
+                <button class="section__button">Zobacz moje zdjęcie</button>
+            </p>
+            <img class="section__photo" src="img/Me.jpg" width="200" alt="Przemek Bobrowski">
+
+            <div class="section__tableContainer">
+                <table class="section__table">
+                    <colgroup>
+                        <col style="width: 30%">
+                        <col style="width: 35%">
+                        <col style="width: 35%">
+                    </colgroup>
+                    <caption class="section__caption">Moja ścieżka zawodowa</caption>
+                    <tr class="section__tableRow">
+                        <th class="section__tableCell section__tableHeader" scope="col">Okres pracy</th>
+                        <th class="section__tableCell section__tableHeader" scope="col">Stanowisko</th>
+                        <th class="section__tableCell section__tableHeader" scope="col">Firma</th>
+                    </tr>
+                    <tr class="section__tableRow">
+                        <th class="section__tableCell section__tableHeader" scope="row">06/2020 - obecnie</th>
+                        <td class="section__tableCell">Młodszy projektant konstrukcji</td>
+                        <td class="section__tableCell">MCM Project Sp. z o.o.</td>
+                    </tr>
+                    <tr class="section__tableRow">
+                        <th class="section__tableCell section__tableHeader" scope="row">03/2016 - 04/2020</th>
+                        <td class="section__tableCell">Asystent projektanta/Inżynier Budowy</td>
+                        <td class="section__tableCell">Compact-Project Sp. z o.o. Sp. k.</td>
+                    </tr>
+
+                    <tr class="section__tableRow">
+                        <th class="section__tableCell section__tableHeader" scope="row">07/2015 - 08/2015</th>
+                        <td class="section__tableCell">Asystent projektanta</td>
+                        <td class="section__tableCell">PROBUDMIX Projektowanie obiektów budowlanych, instalacji i
+                            konstrukcji
+                            inżynierskich</td>
+                    </tr>
+                    <tr class="section__tableRow">
+                        <th class="section__tableCell section__tableHeader" scope="row">08/2013 - 08/2013</th>
+                        <td class="section__tableCell">Praktykant</td>
+                        <td class="section__tableCell">STM Przedsiębiorstwo Budowlane</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="przedmioty-techniczne">
+            <h2 class="section__Header">Przedmioty techniczne</h2>
+            <p class="section__paragraph">
+                Udzielam pomocy z przedmiotów technicznych, na kierunku Budownictwo, Architektura, Inżynieria
+                Środowiska:</p>
+            <ul class="section__unorderedList">
+                <li class="section__listItem">Mechanika ogólna (statyka i kinematyka)</li>
+                <li class="section__listItem">Wytrzymałość materiałów</li>
+                <li class="section__listItem">Mechanika Budowli</li>
+            </ul>
+        </section>
+
+        <section class="section" id="kontakt">
+            <h2 class="section__Header">Kontakt</h2>
+            <p class="section__paragraph">
+                Jeżeli masz pytania, skontaktuj się ze mną pod adresem mailowym:</p>
+            <a class="section__mail" href="mailto:ekorepetycje.budowlane@gmail.com">ekorepetycje.budowlane@gmail.com</a>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        © 2020 - Budownictwo na 5! Wszystkie prawa zastrzeżone.
+    </footer>
+
+
+</body>
+
+</html>
